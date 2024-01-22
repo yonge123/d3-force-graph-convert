@@ -2966,15 +2966,18 @@
         }
       ]
     }
-    // drawChart('.container', data);
+    // 1. drawChart('.container', data);
 
 
-    // works on vscode extesion  Live Preview by Microsoft
+
+    // 2. works on vscode extesion  Live Preview by Microsoft
     // fetch('graph.json').then(res => res.json()).then(data => {
     //     drawChart('.container', data);
     // });
 
-    // get json from web
+
+
+    // 3. get json from web
     fetch('https://static.observableusercontent.com/files/e3680d5f766e85edde560c9c31a6dba2ddfcf2f66e1dced4afa18d8040f1f205e0bde1b8b234d866373f2bfc5806fafc47e244c5c9f48b60aaa1917c1b80fcb7?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27graph.json').then(res => res.json()).then(data => {
         drawChart('.container', data);
     });
